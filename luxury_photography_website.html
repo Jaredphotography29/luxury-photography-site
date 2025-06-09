@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Luxury Photography Portfolio by Jared Wilson - Explore breathtaking visuals and cinematic excellence in every frame." />
+  <title>Jared Wilson | Luxury Photography</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --background: #0e0e0e;
+      --accent: #d4af37;
+      --text: #ffffff;
+      --muted: #cccccc;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--background);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      padding: 2rem;
+      text-align: center;
+      background-color: #111;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      color: var(--accent);
+    }
+    header p {
+      color: var(--muted);
+      font-size: 1.2rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      background-color: #1a1a1a;
+    }
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: var(--accent);
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      color: var(--muted);
+      font-size: 1rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+    .about, .contact {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+    footer {
+      background-color: #111;
+      color: var(--muted);
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+    }
+    .accent {
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jared Wilson</h1>
+    <p>Luxury Photography & Cinematic Excellence</p>
+  </header>
+  <nav>
+    <a href="#gallery">Gallery</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section class="hero">
+    <h2>Luxury in Every Frame</h2>
+    <p>Timeless, elegant, and cinematic photography designed to capture emotion and elevate experience.</p>
+  </section>
+  <section id="gallery" class="gallery">
+    <img src="/images/photo1.jpg" alt="Luxury Shot 1">
+    <img src="/images/photo2.jpg" alt="Luxury Shot 2">
+    <img src="/images/photo3.jpg" alt="Luxury Shot 3">
+    <img src="/images/photo4.jpg" alt="Luxury Shot 4">
+    <img src="/images/photo5.jpg" alt="Luxury Shot 5">
+    <img src="/images/photo6.jpg" alt="Luxury Shot 6">
+  </section>
+  <section id="about" class="about">
+    <h2 class="accent">About Jared</h2>
+    <p>With a refined eye for detail and a passion for storytelling, Jared Wilson crafts photographic experiences that embody elegance and precision. Specializing in high-end portraiture and editorial-style luxury captures, Jared’s work reflects sophistication rooted in authenticity.</p>
+  </section>
+  <section id="contact" class="contact">
+    <h2 class="accent">Book a Session</h2>
+    <p>Email: <a href="mailto:contact@jaredwilsonlux.com">contact@jaredwilsonlux.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/yourhandle" target="_blank">@yourhandle</a></p>
+  </section>
+  <footer>
+    <p>&copy; 2025 Jared Wilson Luxury Photography. All rights reserved.</p>
+  </footer>
+</body>
+</html>
